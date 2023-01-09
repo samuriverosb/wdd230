@@ -26,8 +26,9 @@ article {
 
 article img {
   width: 300px;
-  margin-left: 3px;
   padding-top: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 article h3 {
@@ -37,6 +38,11 @@ article h3 {
   padding-left: 10px;
   margin-top: 0;
   border-radius: 10px 10px 0 0;
+}
+
+a {
+  width: 100%;
+  display: block;
 }
 
 p, a {
