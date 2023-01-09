@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  background-color: #0a3d62;
+  color: #fff;
+  text-align: center;
+  padding: 1px;
+  margin-bottom: 15px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 306px);
+  justify-content: space-around;
+  gap: 20px;
+}
+
+article {
+  background-color: #ced6e0;
+  border-radius: 10px 10px 0 0;
+}
+
+article img {
+  width: 300px;
+  margin-left: 3px;
+  padding-top: 10px;
+}
+
+article h3 {
+  background-color: #3c6382;
+  color: #fff;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+p, a {
+  padding-left: 10px;
+}
+
+.paragraph {
+  padding: 10px;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 968px) {
+  main {
+    grid-template-columns: 306px 306px;
+  }
+
+  .article3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+  main {
+    grid-template-columns: 306px;
+  }
+
+  .article3 {
+    grid-column-start: 0;
+    grid-column-end: 1;
+  }
+}
