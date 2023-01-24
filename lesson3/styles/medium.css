@@ -223,61 +223,11 @@ table, th, td {
   font-size: 1.5em;
 }
 
-@media only screen and (max-width: 638px) {
-  body {
-    font-size: 1em;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.2em;
-  }
-
-  a {
-    font-size: .85em;
-  }
-
-  h2 {
-    font-size: 1.25em;
-  }
-
-  .colors {
-    width: 100%;
-  }
-
-  .names {
-    width: 100%;
-    font-size: .8em;
-  }
-
-  .container {
-    width: 100%;
-  }
-
-  p {
-    font-size: .85em;
-    text-align: center;
-  }
-
-  table {
-    font-size: .75em;
-  }
-
-  .persona {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .persona article {
-    width: 90%;
-  }
+footer {
+  background-color: #192142;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  padding: 1.5em 0 1.5em 0;
+  margin-top: 2em;
 }

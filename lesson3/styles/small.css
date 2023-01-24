@@ -1,0 +1,62 @@
+@media only screen and (max-width: 638px) {
+  body {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+  }
+
+  a {
+    font-size: .85em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+  .colors {
+    width: 100%;
+  }
+
+  .names {
+    width: 100%;
+    font-size: .8em;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  p {
+    font-size: .85em;
+    text-align: center;
+  }
+
+  table {
+    font-size: .75em;
+  }
+
+  .persona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .persona article {
+    width: 90%;
+  }
+
+  footer {
+    padding: auto;
+  }
+}
