@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Open+Sans:ital,wght@0,500;0,700;1,700;1,800&display=swap');
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #192142;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.title {
+  width: 95%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title img {
+  width: 4em;
+  height: 4em;
+  flex-shrink: 0;
+}
+
+.title h1 {
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.title h1 span {
+  font-style: italic;
+  font-size: .8em;
+}
+
+.fa-facebook {
+  color: white;
+  background-color: #3b5998;
+  border-radius: 100%;
+  padding: .5em;
+  width: 1em;
+  text-align: center;
+  margin-right: .5em;
+}
+
+.fa-facebook:hover {
+  background-color: #3b589880;
+}
+
+.fa-linkedin {
+  color: white;
+  background-color: #0e76a8;
+  border-radius: 100%;
+  padding: .5em;
+  width: 1em;
+  text-align: center;
+}
+
+.fa-linkedin:hover {
+  background-color: #0e76a880;
+}
+
+.hamburger {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.46);
+  border: 1px solid rgba(255, 255, 255, 0.46);
+  font-size: 1.5em;
+}
+
+.hamburger:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.date-container {
+  width: 90%;
+  background-color: #ffffff70;
+  height: 3em;
+  margin: 1em auto;
+  margin-top: -.3em;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 0;
+}
+
+main {
+  font-family: 'Arimo', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.join, .hid {
+  display: none;
+}
+
+.content {
+  width: 95%;
+  height: 15em;
+  background-color: #19214250;
+  margin: 0 auto;
+}
+
+.spotlight {
+  width: 95%;
+  background-color: #19214250;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.spotlight div {
+  width: 95%;
+  border: 1px solid black;
+  height: 10em;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #192142;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  padding: 1em 0;
+  margin-top: 1em;
+}
+
+footer * {
+  margin: 0;
+  padding: 0;
+}
+
+footer img {
+  width: 6em;
+}
+
+footer p {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 100;
+  font-size: .9em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bolder;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .info {
+  font-size: 1em;
+}
+
+hr {
+  background-color: #ffffff30;
+  width: 98%;
+  height: 1px;
+  border: none;
+  margin: 1.3em;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.show {
+  display: none;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+#hidden ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: .8em;
+  width: 100%;
+}
+
+#hidden ul li {
+  width: 100%;
+}
+
+#hidden ul a {
+  display: block;
+  padding: 1em 0;
+  text-decoration: none;
+  width: 100%;
+  color: #fff;
+}
+
+#hidden ul a:hover {
+  background-color: #ffffff30;
+}
+
