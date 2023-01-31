@@ -384,3 +384,10 @@ nav {
 .showEvent {
   display: block;
 }
+
+.country {
+  background-color: #fca327;
+  border-radius: 5px;
+  padding: .05rem .5rem;
+  color: #000;
+}
