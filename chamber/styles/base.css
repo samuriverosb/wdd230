@@ -12,6 +12,10 @@ header {
   margin-bottom: 1em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .title {
   width: 95%;
   color: #fff;
@@ -102,26 +106,120 @@ main {
 
 .content {
   width: 95%;
-  height: 15em;
-  background-color: #19214250;
+  background-color: #415fda;
+  color: white;
+  margin: 0 auto;
+}
+
+.content h2 {
+  text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+  width: 95%;
+  background-color: #fff;
+  height: min-content;
+}
+
+.hero-img {
+  width: 100%;
+  height: 20em;
+  object-fit: cover;
+}
+
+.joinButton {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 10rem;
+  height: 3rem;
+  background-color: #536fdb;
+  border: 0;
+  box-shadow: 0 0 15px black;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.534);
+}
+
+.joinButton:hover {
+  height: 3.2rem;
+  width: 10.2rem;
+  border: 3px solid white;
+  transition: all 200ms ease;
+}
+
+.event {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.event h2 {
+  text-decoration: underline;
+}
+
+.event p {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.event a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.event a:hover {
+  text-decoration: underline;
+}
+
+.weather {
+  text-align: center;
+}
+
+.news {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.news p {
+  width: 90%;
   margin: 0 auto;
 }
 
 .spotlight {
   width: 95%;
-  background-color: #19214250;
+  background-color: #415fda;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1em 0;
+  text-align: center;
+  color: #fff;
 }
 
-.spotlight div {
+.spotlight section {
   width: 95%;
-  border: 1px solid black;
-  height: 10em;
+  margin-bottom: 1rem;
+  background-color: #5b75e1;
+  box-shadow: 0 0 5px black;
+}
+
+.spotlight img {
+  width: 13rem;
+}
+
+.spotlight hr {
+  margin: 0 auto;
+}
+
+.spotlight-info {
+  margin: 0 auto;
+  font-size: x-small;
 }
 
 footer {
@@ -136,6 +234,7 @@ footer {
   font-family: 'Open Sans', sans-serif;
   padding: 1em 0;
   margin-top: 1em;
+  margin-bottom: 0;
 }
 
 footer * {
@@ -213,3 +312,75 @@ nav {
   background-color: #ffffff30;
 }
 
+.weather {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 1rem;
+}
+
+#city-name {
+  font-size: 2.3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.degrees {
+  margin: 1rem auto;
+}
+
+#degrees {
+  font-size: 5rem;
+}
+
+.celsius {
+  font-size: 2rem;
+  height: 100%;
+  position: relative;
+  bottom: 1ex;
+}
+
+#weather-icon {
+  width: 5rem;
+}
+
+.display #description, .display #weather-icon {
+  margin: 0;
+}
+
+.joinButtonSection {
+  width: 10rem;
+  height: 3rem;
+  background-color: #536fdb;
+  border: 0;
+  box-shadow: 0 0 15px black;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.534);
+  margin: 0 auto;
+}
+
+.joinButtonSection:hover {
+  height: 3.2rem;
+  width: 10.2rem;
+  border: 3px solid white;
+  transition: all 200ms ease;
+}
+
+.join h2, .join button, .join p {
+  margin-bottom: 3rem;
+}
+
+.join p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.eventHidden {
+  text-align: center;
+  color: #fff;
+  display: none;
+}
+
+.showEvent {
+  display: block;
+}

@@ -5,6 +5,18 @@
 
   .show {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero {
+    height: 100%;
+  }
+
+  .hero-img {
+    object-fit: cover;
+    height: 100%;
   }
 
   .show ul {
@@ -30,7 +42,6 @@
   main :nth-child(1) {
     order: 4;
     grid-area: 1 / 2 / 3 / 4;
-    height: auto;
   }
 
   main :nth-child(2) {
@@ -77,5 +88,13 @@
     display: flex;
     justify-content: center;
     gap: 1em;
+  }
+
+  .joinButton {
+    display: none;
+  }
+
+  .join {
+    text-align: center;
   }
 }

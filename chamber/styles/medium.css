@@ -8,6 +8,10 @@
     font-style: normal;
   }
 
+  .hero-img {
+    height: 27em
+  }
+
   main {
     width: 97%;
     margin: 0 auto;
@@ -52,7 +56,7 @@
     flex-direction: row;
   }
 
-  .spotlight div {
+  .spotlight section {
     margin: .5em .5em;
   }
 
