@@ -321,6 +321,7 @@ nav {
   font-size: 2.3rem;
   padding: 0;
   margin: 0;
+  margin-bottom: .5rem;
 }
 
 .degrees {
@@ -340,10 +341,19 @@ nav {
 
 #weather-icon {
   width: 5rem;
+  margin-left: .5rem;
 }
 
-.display #description, .display #weather-icon {
-  margin: 0;
+#description {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+#weather hr {
+  margin: 0 auto;
+  width: 80%;
 }
 
 .joinButtonSection {
