@@ -97,4 +97,9 @@
   .join {
     text-align: center;
   }
+
+  /* Display Page */
+  .discover {
+    width: 70%;
+  }
 }

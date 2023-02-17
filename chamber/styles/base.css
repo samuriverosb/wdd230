@@ -85,12 +85,24 @@ h1, h2, h3, h4, h5, h6 {
 .date-container {
   width: 90%;
   background-color: #ffffff70;
-  height: 3em;
+  /* height: 3em; */
   margin: 1em auto;
   margin-top: -.3em;
   text-align: center;
   font-size: 1.3em;
   padding: 0;
+}
+
+#date {
+  margin-bottom: .3em;
+  margin-top: .5em;
+}
+
+#last-visited {
+  font-size: .7em;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: .5em;
 }
 
 main {
@@ -401,4 +413,55 @@ nav {
   border-radius: 5px;
   padding: .05rem .5rem;
   color: #000;
+}
+
+/* Discover Page styling */
+
+#discoverParent {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: #fff;
+}
+
+.discover {
+  width: 90%;
+  text-align: center;
+  background-color: #415fda;
+  padding: 1rem;
+}
+
+.discover img {
+  width: 90%;
+  box-shadow: 0 0 5px #000;
+}
+
+.discover-text {
+  background-color: rgb(57, 81, 178);
+  padding-top: .1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 0 5px #000;
+}
+
+.discover h2 {
+  text-decoration: underline;
+}
+
+.discover p {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.discover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.discover a:hover {
+  text-decoration: underline;
 }
