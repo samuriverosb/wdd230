@@ -112,7 +112,7 @@
   }
 
   .discover-img {
-    filter: grayscale();
+    filter: grayscale(100);
   }
 
   .discover-img:hover {
