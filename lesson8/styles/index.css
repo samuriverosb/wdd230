@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(45, 53, 61);
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid rgba(255, 255, 255, 0.585);
+  margin-top: 10vh;
+  text-align: center;
+}
+
+td {
+  border: 1px solid rgba(255, 255, 255, 0.585);
+  padding: 7px 20px;
+}
+
+tbody {
+  background-color: #ecf0f1;
+}
+
+tbody tr td:nth-child(1) {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(2) {
+  background-color: #e3e3e3;
+}
+
+th {
+  padding: 10px 20px;
+}
+
+thead tr:nth-child(1) {
+  background-color: rgb(41, 41, 123);
+  color: white;
+}
+
+thead tr:nth-child(2) {
+  background-color: rgb(49, 49, 147);
+  color: white;
+}
+
+thead tr:nth-child(2) th:nth-child(1) {
+  background-color: rgb(41, 41, 123);
+}
