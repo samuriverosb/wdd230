@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join Page">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/medium.css">
+  <link rel="stylesheet" href="./styles/large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Join Us!</title>
+</head>
+<body>
+  <header>
+    <div class="title">
+      <img src="./images/logo.webp" alt="VM Chamber Logo">
+      <h1>Viña del Mar <span>Chamber</span></h1>
+      <div class="socials">
+        <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <button class="hamburger">&#9776;</button>
+    </div>
+    <nav id="hidden" class="show">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="./discover.html">Discover</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="date-container">
+      <p id="date"></p>
+    </div>
+    <div class="eventHidden">
+      <p>📅 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. 📅</p>
+    </div>
+  </header>
+  <main id="join-main">
+    <div>
+      <h1 id="join-us">Join Us!</h1>
+      <form method="get" action="thankyou.html">
+        <label for="first">Enter First Name:</label>
+        <input type="text" name="first" id="first" required>
+        <label for="last">Enter Last Name:</label>
+        <input type="text" name="last" id="last" required>
+        <label for="position">Enter Business Position:</label>
+        <input type="text" name="position" id="position" pattern="[a-zA-Z -]{7,}">
+        <label for="email">Enter your Email:</label>
+        <input type="email" name="email" id="email" placeholder="example@domain.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        <label for="tel">Enter your Phone Number:</label>
+        <input type="tel" name="tel" id="tel" required>
+        <label for="business">Enter Business Name:</label>
+        <input type="text" name="business" id="business" required>
+        <label for="membership">Choose a Membership Level:</label>
+        <select name="membership" id="membership">
+          <option value="NP" id="NP">NP Membership</option>
+          <option value="Bronze" id="Bronze" selected>Bronze Membership</option>
+          <option value="Silver" id="Silver">Silver Membership</option>
+          <option value="Gold" id="Gold">Gold Membership</option>
+        </select>
+        <label for="desc">Describe your Business:</label>
+        <textarea name="desc" cols="50" rows="10" id="desc"></textarea>
+        <input type="datetime-local" id="datetime-local" hidden>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+    <div>
+      <h2 id="member-level">Membership Levels</h2>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>NP</th>
+            <th class="bronze">Bronze</th>
+            <th class="silver">Silver</th>
+            <th class="gold">Gold</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Advertising</td>
+            <td>&#10004;</td>
+            <td class="bronze">&#10004;</td>
+            <td class="silver">&#10004;</td>
+            <td class="gold">&#10004;</td>
+          </tr>
+          <tr>
+            <td>Training</td>
+            <td>&#10006;</td>
+            <td class="bronze">&#10006;</td>
+            <td class="silver">&#10004;</td>
+            <td class="gold">&#10004;</td>
+          </tr>
+          <tr>
+            <td>Discount</td>
+            <td>&#10006;</td>
+            <td class="bronze">5%</td>
+            <td class="silver">10%</td>
+            <td class="gold">20%</td>
+          </tr>
+          <tr>
+            <td>Chamber Meet</td>
+            <td>&#10006;</td>
+            <td class="bronze">&#10006;</td>
+            <td class="silver">&#10006;</td>
+            <td class="gold">&#10004;</td>
+          </tr>
+          <tr>
+            <td>Price/month</td>
+            <td>Free</td>
+            <td class="bronze">$5</td>
+            <td class="silver">$8</td>
+            <td class="gold">$10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <footer>
+    <div class="address">
+      <img src="./images/logo.webp" alt="VM Chamber Logo">
+      <div class="address-p">
+        <h2>Viña del Mar Chamber</h2>
+        <p>Av. Livertad 1348</p>
+        <p>Viña del Mar, Chile</p>
+      </div>
+      <br>
+    </div>
+    <div class="info">
+      <p>info@vinadelmar.org</p>
+      <p>+(549) 11 2652-6061</p>
+      <a href="#" target="_blank"><span>&#128205;</span> Location Map</a>
+    </div>
+    <hr>
+    <div class="copy">
+      <div class="copy-content">
+        <p>&copy;<span id="year"></span> Viña del Mar Chamber</p>
+        <p class="name">Samuel Riveros</p>
+        <p>WDD 230 Project</p>
+      </div>
+      <p>Last Modification: <span id="modification"></span></p>
+    </div>
+  </footer>
+  <script src="./scripts/join.script.js"></script>
+</body>
+</html>

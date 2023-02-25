@@ -119,4 +119,11 @@
     filter: grayscale(0);
     transition: ease-in-out 500ms;
   }
+
+  /* Join Page */
+
+  #join-main {
+    display: flex;
+    flex-direction: column;
+  }
 }

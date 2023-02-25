@@ -102,4 +102,14 @@
   .discover {
     width: 70%;
   }
+
+  /* Join Page */
+
+  #join-main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
 }

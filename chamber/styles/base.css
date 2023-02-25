@@ -465,3 +465,119 @@ nav {
 .discover a:hover {
   text-decoration: underline;
 }
+
+#join-us {
+  text-align: center;
+  text-decoration: underline;
+}
+
+form {
+  margin: 0 auto;
+  background-color: #3b5998;
+  padding: 2rem 3rem;
+  color: #fff;
+  box-shadow: 0 0 10px black;
+}
+
+form label {
+  display: block;
+  font-size: .9rem;
+}
+
+form button {
+  display: block;
+  margin: 0 auto;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+form input, form select {
+  height: 1.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  border: 10px solid #0e76a8;
+  text-align: center;
+  margin: 1rem auto;
+  box-shadow: 0 0 10px black;
+}
+
+td {
+  padding: 10px 20px;
+}
+
+tbody tr td:nth-child(1) {
+  font-weight: bold;
+}
+
+#member-level {
+  text-align: center;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+.bronze {
+  background-color: #cd6133;
+}
+
+.silver {
+  background-color: #d1ccc0;
+}
+
+.gold {
+  background-color: #ffda79;
+}
+
+th {
+  padding: 13px 20px;
+}
+
+form button {
+  width: 8rem;
+  height: 3rem;
+  background-color: #536fdb;
+  border: 0;
+  box-shadow: 0 0 15px black;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.534);
+}
+
+form button:hover {
+  border: 3px solid white;
+  transition: all 200ms ease;
+}
+
+#thanks {
+  display: block;
+  margin: 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+#thanks div {
+  width: 95%;
+  margin: 0 auto;
+  background-color: #415fda;
+  box-shadow: 0 0 5px black;
+}
+
+#thanks img {
+  width: 95%;
+  margin: 1rem auto;
+  box-shadow: 0 0 5px black;
+}
+
+#thanks h1 {
+  background-color: #415fda;
+  color: #fff;
+  width: fit-content;
+  margin: 2rem auto;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 0 5px black;
+}
