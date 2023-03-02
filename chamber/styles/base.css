@@ -581,3 +581,54 @@ form button:hover {
   padding: 1rem 1.5rem;
   box-shadow: 0 0 5px black;
 }
+
+#directory-main {
+  display: block;
+  text-align: center;
+  margin: 1rem auto;
+  width: 90%;
+}
+
+#directory-main button {
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.card {
+  background-color: #415fda;
+  padding: 1rem;
+  color: white;
+}
+
+.card img {
+  box-shadow: 0 0 5px black;
+}
+
+.card h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.card a {
+  color: white;
+}
+
+.processTable {
+  font-size: .7rem;
+  margin: 1rem 0;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.processTable td {
+  padding: 15px 15px;
+}
+
+.processTable tbody tr:nth-child(even) {
+  background-color: #0e77a848;
+}

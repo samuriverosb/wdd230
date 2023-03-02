@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./styles/base.css">
   <link rel="stylesheet" href="./styles/medium.css">
   <link rel="stylesheet" href="./styles/large.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   <title>Discover Viña del Mar</title>
 </head>
 <body>
@@ -39,8 +39,10 @@
       <p>📅 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. 📅</p>
     </div>
   </header>
-  <main>
-
+  <main id="directory-main">
+    <button id="grid-button"><i class="fa-solid fa-table-cells"></i></button>
+    <button id="list-button"><i class="fa-solid fa-list"></i></button>
+    <div class="cards"></div>
   </main>
   <footer>
     <div class="address">
@@ -67,6 +69,6 @@
       <p>Last Modification: <span id="modification"></span></p>
     </div>
   </footer>
-  <script src="./scripts/discover.script.js"></script>
+  <script src="./scripts/directory.script.js"></script>
 </body>
 </html>
