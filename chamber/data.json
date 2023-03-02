@@ -1,0 +1,76 @@
+{
+	"business": [
+		{
+			"name": "Just Burger",
+			"address": "Av. Libertad & 5 Norte",
+			"number": "+569 555 1548",
+			"website": "https://www.justburger.cl/",
+			"imageurl": "https://www.paseoquilin.cl/wp-content/uploads/2022/08/logo-just-biurger.jpg",
+			"membership": "gold"
+		},
+		{
+			"name": "Surf-A-Tonic",
+			"address": "Av. San Martin 1199",
+			"number": "+569 555 8465",
+			"website": "https://www.surfatonic.cl/",
+			"imageurl": "https://img.freepik.com/vector-premium/logo-surfing-sport_7785-371.jpg",
+			"membership": "gold"
+		},
+		{
+			"name": "Barbones",
+			"address": "Av. Perú 2500",
+			"number": "+569 555 9874",
+			"website": "https://www.barbones.cl/",
+			"imageurl": "https://mir-s3-cdn-cf.behance.net/projects/404/efd84431389151.Y3JvcCwxNDgzLDExNjAsMTc2LDI1OA.png",
+			"membership": "gold"
+		},
+		{
+			"name": "El Cafe Rosa",
+			"address": "1 Pte 820",
+			"number": "+569 555 0820",
+			"website": "https://www.caferosa.cl/",
+			"imageurl": "https://img.freepik.com/vector-premium/diseno-logotipo-corazon-cafe_579179-736.jpg?w=500",
+			"membership": "silver"
+		},
+		{
+			"name": "iPlanet",
+			"address": "Arlegui 470",
+			"number": "+569 555 0470",
+			"website": "https://www.iplanet.cl/",
+			"imageurl": "https://d1fdloi71mui9q.cloudfront.net/OAsdHhM5TkPD1FbDNiaA_wS3B2l048qV5TDKq",
+			"membership": "silver"
+		},
+		{
+			"name": "Viña Propiedades",
+			"address": "Av. Libertad 1570",
+			"number": "+569 555 1570",
+			"website": "https://www.vinapropiedades.cl/",
+			"imageurl": "https://www.vinapropiedades.cl/img/logo-fb.jpg",
+			"membership": "silver"
+		},
+		{
+			"name": "Terminus Records",
+			"address": "Av. Perú 1340",
+			"number": "+569 555 1340",
+			"website": "https://www.terminus.cl/",
+			"imageurl": "https://images-platform.99static.com//cDjbvE3cTpLtoCGLoGbiUOCufgI=/148x0:877x729/fit-in/500x500/99designs-contests-attachments/58/58813/attachment_58813572",
+			"membership": "bronze"
+		},
+		{
+			"name": "Haunted",
+			"address": "Av. San Martin 340",
+			"number": "+569 555 0340",
+			"website": "https://www.hauntedhouse.cl/",
+			"imageurl": "https://t3.ftcdn.net/jpg/02/78/52/34/360_F_278523433_4PLm6GZfM0IV6ryyIUtHRMJGPhmP4Cyy.jpg",
+			"membership": "bronze"
+		},
+		{
+			"name": "Viña Zoo",
+			"address": "Sporting Viña del Mar",
+			"number": "+569 555 0606",
+			"website": "https://www.vinazoo.cl/",
+			"imageurl": "https://i.pinimg.com/564x/2f/3e/76/2f3e76178adab665e588a258f4edd46e.jpg",
+			"membership": "NP"
+		}
+	]
+}
