@@ -74,7 +74,7 @@ const processData = (businessData) => {
       level.setAttribute("style", "background-color: #d1ccc0; color: #000")
     }
     else if (business.membership === "bronze") {
-      level.setAttribute("style", "background-color: #cd6133")
+      level.setAttribute("style", "background-color: #9c4d2b")
     }
     else {
       level.setAttribute("style", "background-color: #ffffff; color: #000000")
