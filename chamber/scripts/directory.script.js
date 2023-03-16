@@ -46,6 +46,7 @@ const processData = (businessData) => {
   main.removeChild(main.lastChild);
   businessData.forEach(business => {
     const card = document.createElement("section");
+    const level = document.createElement("p");
     const image = document.createElement("img");
     const name = document.createElement("h2");
     const address = document.createElement("p");
@@ -62,11 +63,28 @@ const processData = (businessData) => {
     name.textContent = business.name;
     address.textContent = business.address;
     number.textContent = business.number;
+    level.textContent = business.membership;
+
+    level.setAttribute("class", "level")
+
+    if (business.membership === "gold") {
+      level.setAttribute("style", "background-color: #ffda79; color: #000")
+    }
+    else if (business.membership === "silver") {
+      level.setAttribute("style", "background-color: #d1ccc0; color: #000")
+    }
+    else if (business.membership === "bronze") {
+      level.setAttribute("style", "background-color: #cd6133")
+    }
+    else {
+      level.setAttribute("style", "background-color: #ffffff; color: #000000")
+    }
 
     website.setAttribute("href", business.website);
     website.setAttribute("target", "_blank");
     website.textContent = business.website;
 
+    card.appendChild(level);
     card.appendChild(image);
     card.appendChild(name);
     card.appendChild(address);

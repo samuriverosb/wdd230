@@ -632,3 +632,9 @@ form button:hover {
 .processTable tbody tr:nth-child(even) {
   background-color: #0e77a848;
 }
+
+.level {
+  width: fit-content;
+  padding: .5rem 1rem;
+  margin: 1rem auto;
+}
