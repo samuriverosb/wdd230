@@ -119,4 +119,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  /* DIscovery Page */
+
+  .formAndVisit {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem auto;
+  }
 }

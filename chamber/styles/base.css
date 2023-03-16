@@ -638,3 +638,45 @@ form button:hover {
   padding: .5rem 1rem;
   margin: 1rem auto;
 }
+
+/* Contact page */
+
+.map {
+  padding: .5rem;
+  background-color: #3b5998;
+  height: 15rem;
+  width: 95%;
+  margin: 1rem auto;
+}
+
+#contactus h1, #contactus p, #contactus h2 {
+  text-align: center;
+}
+
+small {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+#contactus label {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: .3rem;
+}
+
+#contactus input {
+  margin-bottom: 1.5rem;
+}
+
+#contactus h2 {
+  text-decoration: underline;
+}
+
+#contactus p {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.bolder {
+  font-weight: bold;
+}

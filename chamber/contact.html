@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Viña del Mar Chamber's Home Page">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/medium.css">
+  <link rel="stylesheet" href="./styles/large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Viña del Mar Chamber</title>
+</head>
+<body>
+  <header>
+    <div class="title">
+      <img src="./images/logo.webp" alt="VM Chamber Logo">
+      <h1>Viña del Mar <span>Chamber</span></h1>
+      <div class="socials">
+        <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <button class="hamburger">&#9776;</button>
+    </div>
+    <nav id="hidden" class="show">
+      <ul>
+        <li><a href="./discover.html">Discover</a></li>
+        <li><a href="./directory.html">Directory</a></li>
+        <li><a href="./join.html">Join</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="date-container">
+      <p id="date"></p>
+    </div>
+    <div class="eventHidden">
+      <p>📅 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. 📅</p>
+    </div>
+  </header>
+  <main id="contactus">
+    <h1>Contact us!</h1>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d4531.299306908621!2d-71.54709363810892!3d-33.00455301785255!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1678996544588!5m2!1ses-419!2scl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p>Send us your questions or comments using the form below. We will respond promptly to your inquiry.</p>
+    <small title="Asterisk denotes a required field">
+      <span>*</span>
+      Required field
+    </small>
+    <div class="formAndVisit">
+      <form action="">
+        <label for="name">Name*</label>
+        <input type="text" name="name" id="name" placeholder="John Doe" required>
+        <label for="organization">Organization</label>
+        <input type="text" name="organization" id="organization" placeholder="Company, Inc.">
+        <label for="address">Mailing Address</label>
+        <input type="text" name="address" id="address" placeholder="Noname Avenue 1950">
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" id="phone" placeholder="(+00) 0 0000-0000">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="example@domain.com">
+        <label for="preference">Contact Preference*</label>
+        <select name="preference" id="preference" required>
+          <option value>Choose...</option>
+          <option value="1">Phone</option>
+          <option value="2">Email</option>
+          <option value="3">Mail</option>
+        </select>
+        <label for="questions">Comments/Questions</label>
+        <textarea name="questions" id="questions" cols="30" rows="10"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="visit">
+        <h2>Visit Us!</h2>
+        <p class="bolder">Viña del Mar Chamber</p>
+        <p>Av. Livertad 1348</p>
+        <p>Viña del Mar, Chile</p>
+        <br>
+        <p>Monday - Friday: 08:00 AM to 17:00 PM</p>
+
+        <h2>Points of Contact</h2>
+        <p class="bolder">Samuel Riveros</p>
+        <p>President & CEO</p>
+        <p>samuel.riverosb@gmail.com</p>
+        <p>(+56) 9 9296-5967</p>
+        <br>
+        <p class="bolder">John Doe</p>
+        <p>Vice-President</p>
+        <p>johndoe@gmail.com</p>
+        <p>(+56) 9 9598-4525</p>
+        <br>
+        <p class="bolder">Jane Doe</p>
+        <p>Marketing & Social Media Manager</p>
+        <p>(+56) 9 8769-3215</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="address">
+      <img src="./images/logo.webp" alt="VM Chamber Logo">
+      <div class="address-p">
+        <h2>Viña del Mar Chamber</h2>
+        <p>Av. Livertad 1348</p>
+        <p>Viña del Mar, Chile</p>
+      </div>
+      <br>
+    </div>
+    <div class="info">
+      <p>info@vinadelmar.org</p>
+      <p>+(549) 11 2652-6061</p>
+      <a href="#" target="_blank"><span>&#128205;</span> Location Map</a>
+    </div>
+    <hr>
+    <div class="copy">
+      <div class="copy-content">
+        <p>&copy;<span id="year"></span> Viña del Mar Chamber</p>
+        <p class="name">Samuel Riveros</p>
+        <p>WDD 230 Project</p>
+      </div>
+      <p>Last Modification: <span id="modification"></span></p>
+    </div>
+  </footer>
+  <script src="./scripts/script.js"></script>
+  <script defer src="./scripts/windchill.js"></script>
+</body>
+</html>
