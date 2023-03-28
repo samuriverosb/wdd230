@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bountiful Foods</title>
+  <meta name="description" content="Bountiful Foods Home Page">
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/medium.css">
+  <link rel="stylesheet" href="./styles/large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="socials">
+        <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </div>
+      <a href="./index.html"><img id="logo" src="./assets/images/logo.webp" alt="logo"></a>
+      <button class="hamburger">&#9776;</button>
+    </div>
+    <nav class="show" id="hidden">
+      <ul>
+      <li><a href="./index.html">Home</a></li>
+        <li><a href="./fresh.html">FRESH</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="hero">
+      <div class="title">
+        <h1>Bountiful.</h1>
+        <h1>Foods.</h1>
+        <p>Where Fresh, Healthy and Organic Combines.</p>
+      </div>
+      <div class="call">
+        <p>Click here to refresh!</p>
+        <a class="fresh-btn" href="./fresh.html">FRESH</a>
+      </div>
+    </div>
+    <div class="info">
+      <section class="about">
+        <img class="city-img" src="./assets/images/carlsbad.jpg" alt="California San Diego Coast" loading="lazy">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas suscipit tempore incidunt quasi, 
+          fugiat deleniti fugit, maxime impedit quod voluptas assumenda animi dolores asperiores vel! Vero 
+          sunt cupiditate deserunt tenetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Esse suscipit harum consectetur minima dignissimos eligendi maxime obcaecati, corrupti aliquam animi. 
+          Illum dolorem nisi distinctio saepe quod rerum corrupti sequi ab.
+        </p>
+      </section>
+      <section id="weather">
+        <div id="current-weather"></div>
+        <div id="forecast"></div>
+      </section>
+      <section id="drinks">
+        <div id="total-drinks"></div>
+        <p>Drinks made</p>
+        <a class="fresh-btn" href="./fresh.html">FRESH</a>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div id="business-info">
+      <img src="./assets/images/logo.webp" alt="logo">
+    </div>
+    <div id="page-info">
+      <p>Final Project</p>
+      <p>Samuel Riveros .:|:. WDD230 .:|:. <span id="year"></span></p>
+      <p>Last Modified: <span id="last-modified"></span></p>
+    </div>
+    <div id="contact-info">
+      <p>contact@bountiful.com</p>
+      <p>(+1) 555 6874</p>
+      <p>138 Chestnut Ave, Carlsbad,</p>
+      <p>CA 92008, USA</p>
+    </div>
+  </footer>
+  <script src="./scripts/scripts.js"></script>
+</body>
+</html>

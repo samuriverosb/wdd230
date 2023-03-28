@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FRESH - Create a Drink</title>
+  <meta name="description" content="Create your own drink">
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/medium.css">
+  <link rel="stylesheet" href="./styles/large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="socials">
+        <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </div>
+      <a href="./index.html"><img id="logo" src="./assets/images/logo.webp" alt="logo"></a>
+      <button class="hamburger">&#9776;</button>
+    </div>
+    <nav class="show" id="hidden">
+      <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./fresh.html">FRESH</a></li>
+      <li><a href="./aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="fresh-hero">
+      <div></div>
+      <div class="title">
+        <h1>FRESH.</h1>
+        <h1>A.</h1>
+        <h1>DRINK.</h1>
+      </div>
+      <div class="subtitle">
+        <p>Create your own drink!</p>
+        <a href="#myFormDiv" class="fresh-btn">&#11015</a>
+      </div>
+    </div>
+    <div class="form" id="myFormDiv">
+      <form id="myForm">
+        <h2>Fill the data and get your drink!</h2>
+        <label for="name">*Enter your name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">*Enter your email:</label>
+        <input type="text" id="email" name="email" required>
+        <label for="number">Enter your phone number:</label>
+        <input type="tel" name="number" id="number">
+        <label for="ing1">Enter your First ingredient:</label>
+        <select name="ing1" id="ing1">
+          <option value="null">Fruit 1</option>
+        </select>
+        <label for="ing2">Enter your Second ingredient:</label>
+        <select name="ing2" id="ing2">
+          <option value="null">Fruit 2</option>
+        </select>
+        <label for="ing3">Enter your Last ingredient:</label>
+        <select name="ing3" id="ing3">
+          <option value="null">Fruit 3</option>
+        </select>
+        <label for="textarea">Enter description:</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="order"></div>
+    </div>
+  </main>
+  <footer>
+    <div id="business-info">
+      <img src="./assets/images/logo.webp" alt="logo">
+    </div>
+    <div id="page-info">
+      <p>Final Project</p>
+      <p>Samuel Riveros .:|:. WDD230 .:|:. <span id="year"></span></p>
+      <p>Last Modified: <span id="last-modified"></span></p>
+    </div>
+    <div id="contact-info">
+      <p>contact@bountiful.com</p>
+      <p>(+1) 555 6874</p>
+      <p>138 Chestnut Ave, Carlsbad,</p>
+      <p>CA 92008, USA</p>
+    </div>
+  </footer>
+  <script src="./scripts/fresh.js"></script>
+</body>
+</html>

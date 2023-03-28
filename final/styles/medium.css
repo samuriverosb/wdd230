@@ -1,0 +1,98 @@
+@media only screen and (min-width: 678px) {
+  .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 5rem;
+  }
+
+  .hero .title {
+    margin-top: 5rem;
+  }
+
+  .hero .call p {
+    margin-bottom: 0;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 95%;
+    margin: 1rem auto;
+    gap: 1rem;
+  }
+
+  .about p {
+    margin-left: 1rem;
+  }
+
+  .city-img {
+    margin-right: 1rem;
+    width: 60%;
+  }
+
+  #weather {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #current-weather {
+    width: 50%;
+    box-shadow: 0 0 5px black;
+  }
+
+  #current-weather h1 {
+    font-size: 3rem;
+  }
+
+  #forecast {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    width: 50%;
+    gap: 1rem;
+  }
+
+  #forecast div {
+    box-shadow: 0 0 5px black;
+  }
+
+  #drinks {
+    width: 90%;
+  }
+
+  /* FRESH page */
+
+  .form {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .fresh-hero .title {
+    font-size: 2rem;
+  }
+
+  /* About page */
+
+  .about-hero .title {
+    font-size: 2rem;
+  }
+
+  .founder {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .founder img {
+    width: 300px;
+  }
+}

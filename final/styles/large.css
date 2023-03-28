@@ -1,0 +1,89 @@
+@media only screen and (min-width: 1024px) {
+  .hamburger {
+    display: none;
+  }
+
+  .show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .show ul {
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid black;
+  }
+
+  .hero h1 {
+    font-size: 6rem;
+  }
+
+  .header #logo {
+    margin-right: 1rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  footer #contact-info {
+    text-align: right;
+    margin-right: 1rem;
+  }
+
+  footer #business-info {
+    margin-left: 1rem;
+  }
+
+  footer #business-info img {
+    width: 200px;
+  }
+
+  /* FRESH page */
+
+  .form {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .form form {
+    width: 50%;
+    margin: 1rem 0;
+  }
+
+  .form #order {
+    width: 30%;
+  }
+
+  .fresh-hero .title {
+    margin-top: 5rem;
+    font-size: 2.3rem;
+  }
+
+  /* About page */
+
+  .about-hero .title {
+    font-size: 2.3rem;
+  }
+
+  .founder {
+    width: 65%;
+  }
+
+  .address {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+  }
+
+  .address iframe {
+    height: 300px;
+  }
+}
