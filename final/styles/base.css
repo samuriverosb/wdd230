@@ -25,7 +25,7 @@ html {
 nav {
   width: 100%;
   text-align: center;
-  background-color: #6CC551;
+  background-color: #447604;
   padding-bottom: 0;
 }
 
@@ -148,7 +148,7 @@ header #logo {
 }
 
 footer {
-  background-color: #489385;
+  background-color: #3a766b;
   margin-bottom: -15px;
   margin-top: 10rem;
   display: flex;
@@ -191,7 +191,7 @@ footer {
 }
 
 .about {
-  background-color: #489385;
+  background-color: #366f64;
   color: white;
   text-shadow: .5px .5px 1px black;
   text-align: center;
@@ -213,7 +213,7 @@ footer {
 }
 
 #weather #current-weather {
-  background-color: #489385;
+  background-color: #366f64;
   padding: 1rem 8rem;
   text-align: center;
   color: #fff;
@@ -238,12 +238,12 @@ footer {
 }
 
 #forecast div {
-  background-color: #489385;
+  background-color: #366f64;
   padding: 1rem 2rem;
 }
 
 #drinks {
-  background-color: #489385;
+  background-color: #366f64;
   color: white;
   text-align: center;
   width: 100%;
@@ -429,7 +429,7 @@ form label {
 }
 
 .founder p {
-  background-color: #489385;
+  background-color: #366f64;
   padding: 1rem;
   box-shadow: 0 0 5px black;
 }
